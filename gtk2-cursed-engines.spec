@@ -1,4 +1,5 @@
-Summary:	Theme engine for Cursed GTK+
+Summary:	Theme engine for cursed GTK+
+Summary(pl):	Silnik motywów GTK+ opartego na curses
 Name:		gtk2-cursed-engines
 Version:	2.2.0
 Release:	1
@@ -13,7 +14,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The gtk2-cursed-engines package contains Cursed Theme (no graphics,
-only text symbols) for Cursed Gtk.
+only text symbols) for cursed Gtk.
+
+%description -l pl
+Pakiet gtk2-cursed-engines zawiera motyw "Cursed" (bez grafiki, tylko
+symbole tekstowe) dla GTK+ opartego na curses.
 
 %prep
 %setup -q -n gtk-cursed-engines-%{version}
