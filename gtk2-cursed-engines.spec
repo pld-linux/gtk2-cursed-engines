@@ -45,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYING README ChangeLog
+%doc README ChangeLog
 %attr (755,root,root) %{_libdir}/gtk-cursed-2.0/*/engines/*.so
 %dir %{_libdir}/gtk-cursed-2.0
 %dir %{_libdir}/gtk-cursed-2.0/*
