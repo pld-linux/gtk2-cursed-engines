@@ -7,7 +7,7 @@ License:	GPL
 Group:		Libraries
 Source0:	http://zemljanka.sourceforge.net/cursed/current/gtk-cursed-engines-%{version}.tar.gz
 # Source0-md5:	03ba589a40d3c8651a71c79fbdf54cdd
-URL:		http://zemljanka.sf.net/
+URL:		http://zemljanka.sourceforge.net/
 BuildRequires:	gtk2-cursed-devel >= 2.2.0
 Requires:	gtk2-cursed >= 2.2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
