@@ -1,5 +1,5 @@
 Summary:	Theme engine for cursed GTK+
-Summary(pl.UTF-8):   Silnik motywów GTK+ opartego na curses
+Summary(pl.UTF-8):	Silnik motywów GTK+ opartego na curses
 Name:		gtk2-cursed-engines
 Version:	2.2.0
 Release:	1
